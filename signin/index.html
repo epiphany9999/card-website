@@ -6,20 +6,21 @@
     <title>Card Website</title>
     <!-- style link -->
      <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="../css/signin.css">
 </head>
 <body>
     <!-- header section -->
 <header class="header">
 
     <section class="flex">
-        <a href="#" class="logo"><i class="fas fa-credit-card"></i>logo</a>
+        <a href="/" class="logo"><i class="fas fa-credit-card"></i>logo</a>
 
         <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#option">Option</a>
-            <a href="#contact">Contact</a>
-            <a href="#blog">Blog</a>
+            <a href="/#home">Home</a>
+            <a href="/#about">About</a>
+            <a href="/#option">Option</a>
+            <a href="/#contact">Contact</a>
+            <a href="/#blog">Blog</a>
         </nav>
         <a href="/signin" class="btn">Sign in</a>
         <!-- 1000이하일 때 메뉴 작업 -->
@@ -31,9 +32,26 @@
 <!-- /header section -->
 
     <!-- log in -->
-    <section class="signin" style="margin-top: 10rem;">
+    <div class="signin">
+        <section>
         <div class="heading">sign <span>in</span></div>
-    </section>
+        <div class="signin_card">
+            <h2><span>Welcome!</span> 스타벅스 코리아에 오신 것을 환영합니다</h2>
+            <form action="">
+                <input type="text" placeholder="아이디를 입력해 주세요.">
+                <input type="text" placeholder="비밀번호를 입력해 주세요.">
+                <input type="submit" value="로그인">
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+                </p>
+            </form>
+            <div class="action">
+                <a href="#">회원가입</a>
+                <a href="#">아이디 찾기</a>
+                <a href="#">비밀번호 찾기</a>
+            </div>
+        </section>
+        </div>
 
     <!-- //log in -->
 
